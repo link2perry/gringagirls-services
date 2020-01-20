@@ -1,4 +1,4 @@
-import User from "models/User";
+import User from "model/User";
 
 export default class UserImpl implements User {
   id: number = -1;

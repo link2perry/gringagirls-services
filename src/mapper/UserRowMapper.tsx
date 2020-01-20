@@ -1,6 +1,7 @@
 import RowMapper from 'mapper/RowMapper';
-import User from 'models/User';
-import UserImpl from 'models/UserImpl';
+import User from 'model/User';
+import UserImpl from 'model/UserImpl';
+
 
 export default class UserRowMapper implements RowMapper<User> {
   

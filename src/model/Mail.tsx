@@ -1,4 +1,4 @@
-export default interface Email {
+export default interface Mail {
   from: string;       // sender address
   to: string;         // list of receivers
   subject: string;    // Subject line

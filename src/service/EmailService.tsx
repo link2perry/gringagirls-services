@@ -1,4 +1,4 @@
-import Mail from 'models/Mail';
+import Mail from 'model/Mail';
 const nodemailer = require('nodemailer');
 
 const send = async (mail: Mail) => {
