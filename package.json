@@ -1,0 +1,14 @@
+{
+  "name": "gringagirls-services",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sei-atl/load-sql": "^1.0.19",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.5",
+    "log4js": "^6.1.0",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.1",
+    "typescript": "3.6.3"
+  }
+}
