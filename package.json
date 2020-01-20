@@ -1,6 +1,7 @@
 {
   "name": "gringagirls-services",
   "version": "0.1.0",
+  "main": "src/index.js",
   "private": true,
   "dependencies": {
     "@sei-atl/load-sql": "^1.0.19",
