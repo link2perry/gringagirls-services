@@ -1,4 +1,4 @@
-import Mail from 'model/Mail';
+import Mail from '../model/Mail';
 declare const _default: {
     send: (mail: Mail) => Promise<void>;
 };

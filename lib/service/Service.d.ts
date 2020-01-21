@@ -1,4 +1,4 @@
-import MysqlDao from 'dao/MysqlDao';
+import MysqlDao from '../dao/MysqlDao';
 export default class Service<T> {
     getDao(): MysqlDao;
     getById<T>(id: any, options?: {}): Promise<unknown>;

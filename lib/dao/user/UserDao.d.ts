@@ -1,4 +1,4 @@
-import MysqlDao from 'dao/MysqlDao';
+import MysqlDao from '../MysqlDao';
 /**
  * @description Handles database interactions for Users
  * @table gringagirls.user
