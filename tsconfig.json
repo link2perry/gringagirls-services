@@ -2,23 +2,19 @@
   "compilerOptions": {
       "module": "commonjs",
       "alwaysStrict": true,
+      "declaration": true,
+      "declarationMap": true,
       "noImplicitAny": true,
       "noImplicitThis": true,
       "removeComments": true,
       "preserveConstEnums": true,
       "sourceMap": true,
       "baseUrl": "src",
-      "outDir": "dist",
-      "paths":{
-        "dao/*": ["dao/*"],      
-        "mapper/*": ["mapper/*"],
-        "model/*": ["model/*"],
-        "service/*": ["service/*"],
-      }
+      "outDir": "lib"
 
   },
   "include": [
-      "src/**/*"
+      "src"
   ],
   "exclude": [
       "node_modules",
