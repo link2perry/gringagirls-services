@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "alwaysStrict": true,
+      "declaration": true,
+      "declarationMap": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "baseUrl": "src",
+      "outDir": "lib"
+
+  },
+  "include": [
+      "src"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ]
+}
