@@ -1,6 +1,6 @@
-import MysqlDao from 'dao/MysqlDao';
-import UserRowMapper from 'mapper/UserRowMapper';
-import User from 'model/User';
+import MysqlDao from '../MysqlDao';
+import UserRowMapper from '../../mapper/UserRowMapper';
+import User from '../../model/User';
 
 /**
  * @description Handles database interactions for Users

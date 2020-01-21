@@ -1,4 +1,4 @@
-import MysqlDao from 'dao/MysqlDao';
+import MysqlDao from '../dao/MysqlDao';
 // const log4js = require('log4js');
 // const logger = log4js.getLogger();
 // logger.level = process.env.LOGGER_LEVEL || 'error';

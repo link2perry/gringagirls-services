@@ -1,4 +1,4 @@
-import Mail from "model/Mail";
+import Mail from "./Mail";
 
 export default class MailImpl implements Mail {
   from: string = "";

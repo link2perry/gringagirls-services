@@ -1,4 +1,4 @@
-import RowMapper from 'mapper/RowMapper';
+import RowMapper from '../mapper/RowMapper';
 let Loader = require('@sei-atl/load-sql');
 let mysql = require('mysql');
 // const log4js = require('log4js');

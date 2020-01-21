@@ -1,6 +1,6 @@
-import Service from 'service/Service';
-import UserDao from 'dao/user/UserDao';
-import User from 'model/User';
+import Service from '../service/Service';
+import UserDao from '../dao/user/UserDao';
+import User from '../model/User';
 
 let dbConfig: any = {
   "host": "localhost",
