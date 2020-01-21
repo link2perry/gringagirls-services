@@ -1,29 +1,27 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "baseUrl": "src",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react",
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true
+      "module": "commonjs",
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "baseUrl": "src",
+      "outDir": "dist",
+      "paths":{
+        "dao/*": ["dao/*"],      
+        "mapper/*": ["mapper/*"],
+        "model/*": ["model/*"],
+        "service/*": ["service/*"],
+      }
+
   },
   "include": [
-    "src"
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
   ]
 }
