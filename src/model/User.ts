@@ -6,4 +6,5 @@ export default interface User {
   birthDate?: Date;
   username: string;
   password: string;
+  subscribeToNewsLetter: boolean;
 }

@@ -8,6 +8,7 @@ export default class UserImpl implements User {
   email: string = "";
   username: string = "";
   password: string = "";
+  subscribeToNewsLetter: boolean = false;
 
   constructor(user?:User) {
     if(user) {
@@ -18,6 +19,7 @@ export default class UserImpl implements User {
       this.email = user.email;
       this.username = user.username;
       this.password = user.password;
+      this.subscribeToNewsLetter = user.subscribeToNewsLetter;
     }
   }
 }
