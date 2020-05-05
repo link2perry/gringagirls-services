@@ -1,3 +1,6 @@
+import Address from './Address';
+import Group from './Group';
+
 export default interface User {
   id: number;
   firstName: string;
@@ -7,4 +10,7 @@ export default interface User {
   username: string;
   password: string;
   subscribeToNewsLetter: boolean;
+  address: Address;
+  group: Group;
+  isBusinessOwner: boolean;
 }
