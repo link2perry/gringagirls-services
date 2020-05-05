@@ -1,4 +1,6 @@
 import User from "./User";
+import Address from "./Address";
+import Group from "./Group";
 
 export default class UserImpl implements User {
   id: number = -1;
@@ -9,6 +11,9 @@ export default class UserImpl implements User {
   username: string = "";
   password: string = "";
   subscribeToNewsLetter: boolean = false;
+  address: Address;
+  group: Group;
+  isBusinessOwner: boolean;
 
   constructor(user?:User) {
     if(user) {
@@ -20,6 +25,9 @@ export default class UserImpl implements User {
       this.username = user.username;
       this.password = user.password;
       this.subscribeToNewsLetter = user.subscribeToNewsLetter;
+      this.address = user.address;
+      this.group = user.group;
+      this.isBusinessOwner = user.isBusinessOwner;
     }
   }
 }
