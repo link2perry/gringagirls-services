@@ -1,6 +1,8 @@
 import User from "./User";
 import Address from "./Address";
+import AddressImpl from "./AddressImpl";
 import Group from "./Group";
+import GroupImpl from "./GroupImpl";
 
 export default class UserImpl implements User {
   id: number = -1;
@@ -11,9 +13,9 @@ export default class UserImpl implements User {
   username: string = "";
   password: string = "";
   subscribeToNewsLetter: boolean = false;
-  address: Address;
-  group: Group;
-  isBusinessOwner: boolean;
+  address: Address = new AddressImpl();
+  group: Group = new GroupImpl;
+  isBusinessOwner: boolean = false;
 
   constructor(user?:User) {
     if(user) {
